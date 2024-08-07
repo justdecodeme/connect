@@ -1,3 +1,7 @@
+console.log('*****************');
+console.log('Made with 💖 and ☕ in WebAll Academy');
+console.log('*****************');
+
 let bgEl = document.getElementById("bg");
 let hexString = "0123456789abcdef";
 
@@ -17,4 +21,4 @@ let generateGrad = () => {
 	bgEl.style.background = `linear-gradient(${colorOne}, ${colorTwo})`;
 };
 
-window.onload = generateGrad;
+// window.onload = generateGrad;
